@@ -1,25 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23023.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TddDemo.Security", "TddDemo.Security\TddDemo.Security.csproj", "{2790790F-A354-4EB8-B4A1-BDF875BCF4E9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TddDemo.Security.Tests", "TddDemo.Security.Tests\TddDemo.Security.Tests.csproj", "{F20DE9D0-EC81-4EE1-B2CD-4B9BF569320D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Snippets", "Snippets", "{1C9C95E7-F65A-4C70-BAC7-8DA5D20A565F}"
+	ProjectSection(SolutionItems) = preProject
+		Snippets\aaa.snippet = Snippets\aaa.snippet
+	EndProjectSection
+EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 3
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://vsalm:8080/tfs/fabrikamfibercollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = TddDemo.Security\\TddDemo.Security.csproj
-		SccProjectName1 = TddDemo.Security
-		SccLocalPath1 = TddDemo.Security
-		SccProjectUniqueName2 = TddDemo.Security.Tests\\TddDemo.Security.Tests.csproj
-		SccProjectName2 = TddDemo.Security.Tests
-		SccLocalPath2 = TddDemo.Security.Tests
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
